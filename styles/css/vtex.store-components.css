@@ -31,10 +31,11 @@
 
 .infoCardContainer .infoCardHeadline{
     color: black;
+    font-weight: bold;
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-    background-color: white!important;
+    background-color: white;
 }
 
 .infoCardContainer--metal{
