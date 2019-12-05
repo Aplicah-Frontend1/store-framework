@@ -34,16 +34,20 @@
     }
   },
 
+  "product-name": {
+    "props": {}
+  },
+
+  "product-identifier.product": {
+    "props": {}
+  },
+
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity",
       "shipping-simulator"
     ]
-  },
-
-  "product-name": {
-    "props": {}
   },
 
   "product-price": {
