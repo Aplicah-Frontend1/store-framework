@@ -7,6 +7,10 @@
   },
 
   "flex-layout.row#main": {
+    "props": {
+      "marginTop": 6
+    },
+
     "children": [
       "flex-layout.col#left",
       "flex-layout.col#right"
@@ -25,12 +29,14 @@
       "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
+      "shipping-simulator",
       "buy-button"
     ],
 
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "rowGap": 5
     }
   },
 
@@ -45,15 +51,15 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
+      "product-quantity"
     ]
   },
 
   "product-price": {
     "props":{
       "showListPrice": true,
-      "showSavings": true
+      "showSavings": true,
+      "showInstallments": true
     }
   }
 
