@@ -45,7 +45,7 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantit",
+      "product-quantity",
       "shipping-simulator"
     ]
   },
